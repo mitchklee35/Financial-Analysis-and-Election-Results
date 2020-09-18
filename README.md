@@ -1,35 +1,9 @@
-# Python_Challenge
-
-PyBank:
-In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
-
-Your task is to create a Python script that analyzes the records to calculate each of the following:
-
-  The total number of months included in the dataset
-
-  The net total amount of "Profit/Losses" over the entire period
-
-  The average of the changes in "Profit/Losses" over the entire period
-
-  The greatest increase in profits (date and amount) over the entire period
-
-  The greatest decrease in losses (date and amount) over the entire period
-  
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-PyPoll:
-In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
-
-You will be give a set of poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
-
-  The total number of votes cast
-
-  A complete list of candidates who received votes
-
-  The percentage of votes each candidate won
-
-  The total number of votes each candidate won
-
-  The winner of the election based on popular vote.
-  
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+# Python_Challenge - Data Analysis and Visualization Course
+# CSV to Python ETL
+# Function
+PyBank: The purpose here was to take the data from the CSV and generate a calculation. The calculation showed a financial analysis of a single company’s revenue and profitability over a number of months. You can find the result in budget_data.text. it shows, Total months open, total Revenue, average change in revenue, and greatest increase and decrease in profits. 
+PyPoll: Here the purpose was to take all the votes and attribute the vote to a certain candidate to calculate a winner. The total, percentage of votes, and winner was all produced by this python app. 
+# Organization
+Separated into two folders, each app pulls from the specific CSV file then turns the results into a TXT file. 
+# How to Run
+The results will be in a text file, but you can run the python app to print new results if the data changes. 
