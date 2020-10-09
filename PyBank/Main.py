@@ -31,7 +31,7 @@ with open(Main_file) as csvfile:
 
     # Print results
     with open("Budget_data.txt", "w") as txt_file:
-        txt_file.write("Financail Analysis\n")
+        txt_file.write("Financial Analysis\n")
         txt_file.write("-------------------------------------------------------------\n")
         txt_file.write("Total Months:" + str(len(date)) + "\n")
         txt_file.write("Total Revenue: $" + str(sum(revenue)) + "\n")
